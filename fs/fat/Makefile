@@ -1,7 +1,7 @@
 #
 # Makefile for the Linux fat filesystem support.
 #
-
+CFLAGS_dir.o += -Wno-maybe-uninitialized
 obj-$(CONFIG_FAT_FS) += fat.o
 obj-$(CONFIG_VFAT_FS) += vfat.o
 obj-$(CONFIG_MSDOS_FS) += msdos.o
