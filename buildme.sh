@@ -10,7 +10,7 @@ SOURCE_DIR="$(pwd)"
 CROSSARCH="arm"
 CROSSCC="$CROSSARCH-eabi-"
 TOOLCHAIN_D="$(pwd)/toolch"
-TOOLCHAIN="$(pwd)/toolch/android-toolchain-eabi/bin"
+TOOLCHAIN="/home/hieu/github/arm-eabi-4.9/bin"
 #our used directories
 PREBUILT="$(pwd)/prebuilt"
 OUT_DIR="$(pwd)/out"
